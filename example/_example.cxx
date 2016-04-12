@@ -36,7 +36,7 @@ static PyMethodDef example_methods[] = {
 };
 
 //-----------------------------------------------------------------------------
-PyMODINIT_FUNC initexample(void)
+PyMODINIT_FUNC init_example(void)
 {
-  (void) Py_InitModule("example", example_methods);
+  (void) Py_InitModule("_example", example_methods);
 }
